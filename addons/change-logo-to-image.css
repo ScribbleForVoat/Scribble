@@ -1,0 +1,16 @@
+	/*---------------------------------------------------------------------------------------------------
+	--------- CHANGE LOGO FROM TEXT TO AN IMAGE - SUGGESTED IMAGE SIZE: 224PX WIDE BY 89PX TALL ---------
+	---------------------------------------------------------------------------------------------------*/
+	.pagename a {
+		background: url('https://i.imgur.com/WMutdec.png') 50% no-repeat;
+		width: 224px;
+		font-size: 0;
+	}
+	@media (min-width: 871px) {
+		.pagename a {
+			height: 89px;
+			position: relative;
+			top: 15px;
+			margin: 0 30px 0 20px;
+		}
+	}
