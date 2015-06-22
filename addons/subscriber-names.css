@@ -1,0 +1,15 @@
+	/*---------------------------------------------------------------------------------------------------
+	------------------------------ CHANGE THE NAME OF SUBVERSE SUBSCRIBERS ------------------------------
+	---------------------------------------------------------------------------------------------------*/
+	.subscribers .number:after {
+		content: " Artists";
+	}
+	.users-online .number:after {
+		content: " Busy Scribbling";
+	}
+	.subscribers .word {
+		display: none;
+	}
+	.users-online .word {
+		display: none;
+	}
