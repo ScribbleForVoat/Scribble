@@ -1,0 +1,37 @@
+	/*---------------------------------------------------------------------------------------------------
+	------------------------------ CHANGE STYLE ON MARKDOWN EDITOR BUTTONS-------------------------------
+	---------------------------------------------------------------------------------------------------*/
+	div#linkSubMenu {
+		padding: 8px 4px;
+	}
+	.markdownEditorImgButton {
+		height: 25px;
+		background-color: #0A7285;
+		background-image: url('https://i.imgur.com/wOqpyV3.png');
+		background-repeat: no-repeat;
+		border: 1px solid #0a7285;
+		border-radius: 3px;
+	}
+	.markdownEditorImgButton:hover {
+		background-image: url('https://i.imgur.com/UyCb4mH.png');
+		background-repeat: no-repeat;
+		border: 1px solid #ccc !important;
+		background-color: white;
+	}
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(1) {	background-position-y: 5px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(2) {	background-position-y: 5px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(3) {	background-position-y: 6px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(4) {	background-position-y: 5px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(5) {	background-position-y: 5px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(6) {	background-position-y: 5px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(7) {	background-position-y: 5px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(8) {	background-position-y: 6px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(9) {	background-position-y: -23px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(10) {	background-position-y: -23px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(11) {	background-position-y: -23px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(12) {	background-position-y: -24px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(13) {	background-position-y: -23px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(14) {	background-position-y: -24px !important; }
+	.markdownEditorMainMenu > a.markdownEditorImgButton:nth-child(15) {	background-position-y: -23px !important; }
+	#headingsSubMenu a.markdownEditorImgButton { background-position-y: -55px !important; }
+	#tableCreatorSubMenu a.markdownEditorImgButton { background-position-y: -84px !important; }
