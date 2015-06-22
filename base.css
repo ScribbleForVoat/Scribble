@@ -1,0 +1,311 @@
+/*
+SCRIBBLE VERSION 1.4
+OPEN SOURCE PROJECT UNDER MIT LICENSE
+DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
+*/
+
+/*-------------------------------------------------------------------
+--------- YOU DON'T NEED TO CHANGE ANYTHING IN THIS SECTION ---------
+---------- WHEN A NEW UPDATE IS RELEASED, REPLACE THE NEXT ----------
+---------- SECTION ENTIRELY. ANY CUSTOM CSS SHOULD BE DONE ----------
+--------- BELOW THIS CORE GROUPING OF CSS RULES. THANK YOU. ---------
+-------------------------------------------------------------------*/
+
+	.pagename a {
+		color: white;
+	}
+	#header {
+		height: 180px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-color: #0A7285;
+	}
+	.pagename {
+		display: block;
+		position: absolute;
+		top: -104px;
+		margin: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.pagename a {
+		font-size: 50px;
+		line-height: 105px;
+		color: white !important;
+	}
+	.pagename a:hover {
+		color: #eee;
+	}
+	.tabmenu li a {
+		padding: 4px 6px;
+	}
+	.side {
+		top: -191px;
+		padding-top: 190px;
+		height: calc(100vh - 21px);
+	}
+	a:hover, .link a.author:hover {
+		color: #4A4A4A;
+	}
+	a, a:visited, .link a.author, .link a.author:visited {
+		color: #898888;
+	}
+	#sr-bar li a {
+		color: white;
+	}
+	#sr-header-area:hover #sr-bar li a {
+		color: #eee;
+	}
+	.sr-list li a { /* PRIORITY LINKS */
+		color: white;
+	}
+	#sr-bar li a { /* SUBVERSE LINKS */
+		color: white;
+	}
+	span#q-error {
+	  display: block;
+	}
+	.titlebox h1 {
+		font-size: 38px;
+	}
+	.whoaversename.hover a:first-child:before {
+		content: "/v/";
+	}
+	.side button, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .btn-whoaverse-paging {
+		border-width: 1px;
+		background: #0A7285;
+		border-color: transparent;
+		color: white !important;
+	}
+	.side button:hover, .btn-whoaverse.contribute:hover, .pagination-container .btn-whoaverse-paging a:hover, .btn-whoaverse-paging:hover {
+		background: white;
+		background: -webkit-linear-gradient(top,#fff,#fafafa);
+		background: -moz-linear-gradient(top,#fff,#fafafa);
+		background: -ms-linear-gradient(top,#fff,#fafafa);
+		background: -o-linear-gradient(top,#fff,#fafafa);
+		border: 1px solid #ccc !important;
+		color: black !important;
+	}
+	.btn-whoaverse-paging:focus {
+		color: black;
+		background-color: white;
+	}
+	#sr-header-area {
+		border-bottom: 0;
+		background: rgba(255,255,255,0.1);
+		color: white;
+		font-size: 12px;
+		height: 24px;
+		line-height: 22px;
+		text-transform: none;
+		white-space: nowrap;
+	}
+	#sr-header-area .selected a {
+		color: white;
+	}
+	span.subscribers {
+		display: block;
+		margin-top: 5px;
+	}
+	.minimum-ccp-downvote > p:nth-child(1) {
+		display: none;
+	}
+	.alert-h1 {
+		border-bottom: 0;
+		color: #cacaca;
+	}
+	.footer:after {
+	  content: "Design: Scribble (v1.4) for Voat - /v/Scribble";
+	  color: #6d6d6d;
+	}
+	.titlebox.submissioninfo > div:nth-child(3) {
+	  display: none;
+	}
+	.promoted {
+		background: #0A7285;
+		border: 1px solid #0A7285;
+		font-weight: bold;
+	}
+	.comment a.submitter.author, .comment a.moderator.author {
+		background-color: #0a7285;
+		padding: 3px 16px;
+		border-radius: 4px;
+		color: white !important;
+		font-weight: bold;
+	}
+	.comment a.moderator.author {
+		background-color: #3fbf4c;
+	}
+	.markdownEditorSubMenu {
+		margin-top: -4px;
+		margin-bottom: 11px;
+		border: 1px solid rgb(216, 216, 216);
+		border-radius: 3px;
+	}
+	.commenttextarea {
+		min-height: 150px;
+	}
+	.whoaSubscriptionMenu li ul {
+		z-index: 1000;
+		margin-top: -8px;
+	}
+	.whoaSubscriptionMenu li ul {
+		min-width: 60%;
+	}
+	.whoaSubscriptionMenu li ul a {
+		padding: 10px 6px !important;
+	}
+	.link .flair {
+		font-size: x-small;
+		margin-top: -1px;
+		background-color: #0A7285;
+		display: inline-block;
+		padding: 1px 8px;
+		border-radius: 3px;
+		color: white;
+		font-weight: bold;
+		border: 0;
+	}
+
+	@media (min-width: 871px) {
+		#container, #header-banner {
+			max-width: 98%;
+		}
+		#container {
+			position: relative;
+			top: -175px;
+			z-index: 900;
+			margin-bottom: -175px;
+		}
+		#header-banner {
+			top: -30px;
+		}
+		img#header-img {
+			visibility: hidden;
+			width: 71px;
+			margin: 47px 0 10px 0px;
+			vertical-align: unset;
+			position: relative;
+			left: -12px;
+		}
+		#header-banner > a:after {
+			content: " ";
+			background: url('https://i.imgur.com/NK49svv.png'); // VOAT ICON
+			display: block;
+			height: 71px;
+			width: 71px;
+			position: absolute;
+			top: 26px;
+			left: 0;
+		}
+		#header {
+			height: 290px;
+			position: static;
+		}
+		#header-container {
+			background: transparent;
+			border-bottom: 0;
+			border-top: 0;
+			top: 44px;
+			height: 58px;
+			position: absolute;
+			width: 100%;
+			z-index: 1;
+		}
+		.pagename {
+			position: static;
+			display: inline-block;
+			margin-left: auto;
+			width: auto;
+		}
+		.pagename a {
+			font-size: 50px;
+			line-height: 48px;
+		}
+		.form-control {
+			height: 40px;
+			line-height: 40px;
+		}
+		.btn-whoaverse {
+			padding: 10px 12px;
+		}
+		#header-account {
+			top: 47px;
+			font-size: 12px;
+		}
+		.tabmenu {
+			line-height: 61px;
+		}
+		.tabmenu li a {
+			padding: 10px 28px;
+		}
+		.tabmenu li.selected a {
+			padding: 10px 28px;
+			border: 0;
+			border-bottom: 5px solid rgba(246, 246, 246, 0.34902);
+			border-radius: 0px;
+			background: transparent;
+			color: white;
+		}
+		.tabmenu li.disabled a.contribute {
+			background: rgba(246,246,246,0.35);
+			border: 0;
+			padding: 10px 19px 12px;
+			color: white;
+		}
+		.tabmenu li.disabled a {
+			color: white;
+		}
+		.tabmenu li.selected a:hover, .tabmenu li.disabled a:hover, .tabmenu li.disabled a.contribute:hover, .tabmenu li.selected a.contribute, .tabmenu li.selected a.contribute:hover {
+			background: rgba(246,246,246,1);
+			color: #444;
+			border-width: 0px 1px;
+			border-radius: 3px;
+			border-color: transparent;
+		}
+		.tabmenu li.selected a.contribute, .tabmenu li.selected a.contribute:hover {
+			padding: 10px 19px 12px;
+			font-weight: normal;
+		}
+		.logged-in, .logged-out {
+			background: rgba(246,246,246,0.1);
+			border: 0;
+			padding: 10px 19px 12px;
+			color: white;
+		}
+		#header-account a {
+			color: white !important;
+		}
+		.side {
+			padding-top: 0;
+			height: auto;
+		}
+		.titlebox.submissioninfo div:nth-child(6) .h6 {
+			text-align: center;
+		}
+		.titlebox.submissioninfo div:nth-child(6) .h6:first-child {
+			font-size: 0;
+		}
+		.titlebox.submissioninfo div:nth-child(6) .h6:first-child b {
+			font-size: 64px;
+			display: block;
+		}
+		.whoaSubscriptionMenu li ul {
+			min-width: initial;
+		}
+		.whoaSubscriptionMenu li ul a {
+			padding: 1px 6px !important;
+		}
+		.modal-body .col-md-4 input.form-control {
+			line-height: 36px;
+		}
+		.modal-backdrop.in {
+			display: none;
+		}
+	}
+
+/*-------------------------------------------------------------------
+--------- END OF CORE CSS RULES. PLACE YOUR CUSTOM CSS AND ----------
+---------- CSS ADDONS BELOW THIS LINE. LOVE, /v/SCRIBBLE. -----------
+-------------------------------------------------------------------*/
