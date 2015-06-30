@@ -1,5 +1,5 @@
 /*
-SCRIBBLE VERSION 1.4
+SCRIBBLE VERSION 1.4.1
 OPEN SOURCE PROJECT UNDER MIT LICENSE
 DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 */
@@ -116,7 +116,7 @@ DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 		color: #cacaca;
 	}
 	.footer:after {
-	  content: "Design: Scribble (v1.4) for Voat - /v/Scribble";
+	  content: "Design: Scribble (v1.4.1) for Voat - /v/Scribble";
 	  color: #6d6d6d;
 	}
 	.titlebox.submissioninfo > div:nth-child(3) {
