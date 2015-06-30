@@ -132,6 +132,20 @@ DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 	.titlebox.submissioninfo > div:nth-child(3) {
 	  display: none;
 	}
+	#moderation_tools {
+		position: relative;
+		margin-bottom: 80px;
+	}
+	#moderation_tools a[href$="/about/edit/"]:after {
+		content: " ";
+		position: absolute;
+		bottom: -83px;
+		right: 0;
+		width: 280px;
+		display: block;
+		background: url('http://mh1.co/scribble/alerts/1.4.2.png') 50% no-repeat;
+		height: 73px;
+	}
 	.promoted {
 		background: #0A7285;
 		border: 1px solid #0A7285;
