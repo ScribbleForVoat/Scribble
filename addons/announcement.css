@@ -1,18 +1,13 @@
 	/*---------------------------------------------------------------------------------------------------
 	------------------------------- ADD H6 ANNOUNCEMENT BANNER TO SIDEBAR -------------------------------
 	---------------------------------------------------------------------------------------------------*/
-	#container {
-		padding-top: 60px;
-	}
-	.side .titlebox .md > h6:nth-of-type(1) {
-		position: absolute;
-		top: 0;
-		right: 50%;
-		background-color: rgb(236, 42, 42);
-		width: 98%;
-		padding: 10px 20px;
-		color: white;
+	#container:before {
+		content: "test";
+		background-color: #be3d3d;
+		display: block;
 		border-radius: 3px;
-		margin-right: -49%;
-		font-style: normal;
+		padding: 10px 20px;
+		font-size: 14px;
+		color: white;
+		margin: 5px 5px 7px;
 	}
