@@ -94,7 +94,7 @@ DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 		color: black !important;
 	}
 	.btn-whoaverse-paging:focus {
-		color: black;
+		color: black !important;
 		background-color: white;
 	}
 	#sr-header-area {
