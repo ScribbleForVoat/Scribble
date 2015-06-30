@@ -78,6 +78,9 @@ DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 	.whoaversename.hover a:first-child:before {
 		content: "/v/";
 	}
+	.btn-whoaverse-paging:active {
+		top: 0;
+	}
 	.side button, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .btn-whoaverse-paging {
 		border-width: 1px;
 		background: #0A7285;
@@ -96,6 +99,7 @@ DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 	.btn-whoaverse-paging:focus {
 		color: black !important;
 		background-color: white;
+		border: 1px solid #0A7285;
 	}
 	#sr-header-area {
 		border-bottom: 0;
