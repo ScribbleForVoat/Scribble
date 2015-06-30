@@ -1,0 +1,14 @@
+	/*---------------------------------------------------------------------------------------------------
+	------------------------------- INDIVIDUAL USER FLAIRS POSTS & SIDEBAR ------------------------------
+	--------------------------- CHANGE THE NAME IN THE SELECTOR (/user/Hewitt) --------------------------
+	---------------------------------------------------------------------------------------------------*/
+	#container a[href$="/user/Hewitt"]:after {
+		background: #00c5ff;
+		content: "Test Flair";
+		padding: 2px 4px;
+		position: relative;
+		top: 0px;
+		margin-left: 6px;
+		color: white;
+		border-radius: 3px;
+	}
