@@ -1,0 +1,27 @@
+	/*---------------------------------------------------------------------------------------------------
+	------------------------------ ANNOUNCEMENT ALERT WITH LINKS AND STYLES -----------------------------
+	---------------------------------------------------------------------------------------------------*/
+	.side .titlebox .usertext h6:nth-of-type(1) {
+		font-style: normal;
+		font-size: 13px;
+	}
+	@media (min-width: 841px) {
+		#container {
+			padding-top: 71px;
+		}
+		.side .titlebox .usertext h6:nth-of-type(1) {
+			position: absolute;
+			top: 10px;
+			left: 20px;
+			background-color: #be3d3d;
+			display: block;
+			width: calc(100% - 40px);
+			border-radius: 3px;
+			padding: 8px 20px;
+			color: white;
+			font-style: normal;
+		}
+		.side .titlebox .usertext h6:nth-of-type(1) a {
+			color: #71def4;
+		}
+	}
