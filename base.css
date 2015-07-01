@@ -198,6 +198,20 @@ DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 		border-color: white transparent transparent;
 	}
 
+	@media (min-width: 871px) and (max-width: 1150px) {
+		.tabmenu {
+			line-height: 149px;
+			right: 0;
+			position: absolute;
+		}
+		#header-account {
+			top: 1px;
+			right: -4px;
+			padding: 6px;
+			height: 52px;
+		}
+	}
+
 	@media (min-width: 871px) {
 		#container, #header-banner {
 			max-width: 98%;
