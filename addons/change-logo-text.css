@@ -2,7 +2,7 @@
 	-------------------------------- CHANGE SUBVERSE TITLE TEXT IN HEADER -------------------------------
 	---------------------------------------------------------------------------------------------------*/
 	.pagename a:after {
-		content: "Ask Voat";
+		content: "Scribble";
 		font-size: 50px;
 	}
 	.pagename a {
