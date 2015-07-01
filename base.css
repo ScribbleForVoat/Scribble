@@ -1,5 +1,5 @@
 /*
-SCRIBBLE VERSION 1.4.2
+SCRIBBLE VERSION 1.4.3
 OPEN SOURCE PROJECT UNDER MIT LICENSE
 DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 */
@@ -126,7 +126,7 @@ DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 		color: #cacaca;
 	}
 	.footer:after {
-	  content: "Design: Scribble (v1.4.2) for Voat - /v/Scribble";
+	  content: "Design: Scribble (v1.4.3) for Voat - /v/Scribble";
 	  color: #6d6d6d;
 	}
 	.titlebox.submissioninfo > div:nth-child(3) {
@@ -143,7 +143,7 @@ DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 		right: 0;
 		width: 280px;
 		display: block;
-		background: url('http://mh1.co/scribble/alerts/1.4.2.png') 50% no-repeat;
+		background: url('http://mh1.co/scribble/alerts/1.4.3.png') 50% no-repeat;
 		height: 73px;
 	}
 	.promoted {
