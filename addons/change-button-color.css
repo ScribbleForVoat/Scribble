@@ -8,6 +8,9 @@
         .logged-in, .logged-out {
                 background: rgba(246,246,246,0.25);
         }
+        #header {
+        	background-color: #0A7285;
+        }
         .side button, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .btn-whoaverse-paging {
-                background: #67C6FB;
+                background-color: #67C6FB;
         }
