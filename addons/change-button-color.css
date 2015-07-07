@@ -14,3 +14,29 @@
         .side button, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .btn-whoaverse-paging {
                 background-color: #67C6FB;
         }
+        .pagename a {
+        	color: white !important;
+        }
+        .btn-whoaverse-paging, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .side button {
+        	color: white !important;
+        }
+        #sr-bar li a, .sr-list li a {
+        	color: white;
+        }
+        #sr-header-area .selected a {
+        	color: white;
+        }
+        @media (min-width: 871px) {
+        	.tabmenu li.selected a {
+        		color: white;
+        	}
+        	.tabmenu li.disabled a {
+        		color: white;
+        	}
+        	.tabmenu li.disabled a.contribute {
+        		color: white;
+        	}
+        	#header-account a {
+        		color: white !important;
+        	}
+        }
