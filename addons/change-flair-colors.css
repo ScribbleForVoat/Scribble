@@ -1,3 +1,7 @@
+	/*--------------------------------------------------------------------------------------------------------------------------
+	---------------------------------------------- CHANGE FLAIR BACKGROUND COLORS ----------------------------------------------
+	------ PLEASE CHANGE THE CLASS NAME (e.g. "flair-meta", "flair-science") TO WHATEVER CLASS NAME YOU GIVE YOUR FLAIRS. ------
+	--------------------------------------------------------------------------------------------------------------------------*/
 	.flair-meta { background-color: #e74c3c !important; }
 	.flair-science { background-color: #27ae60 !important; }
 	.flair-history { background-color: #2980b9 !important; }
