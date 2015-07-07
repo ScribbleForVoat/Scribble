@@ -26,6 +26,9 @@
         #sr-header-area .selected a {
         	color: white;
         }
+        #sr-header-area:hover #sr-bar li a {
+                color: #eee;
+        }
         @media (min-width: 871px) {
         	.tabmenu li.selected a {
         		color: white;
