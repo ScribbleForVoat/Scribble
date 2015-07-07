@@ -1,11 +1,11 @@
-  /*--------------------------------------------------------------------------------------------------------------------------
-  ---------------------------------------------- CHANGE FLAIR BACKGROUND COLORS ----------------------------------------------
-  ------ PLEASE CHANGE THE CLASS NAME (e.g. "flair-meta", "flair-science") TO WHATEVER CLASS NAME YOU GIVE YOUR FLAIRS. ------
-  --------------------------------------------------------------------------------------------------------------------------*/
-  .flair-meta { background-color: #e74c3c !important; }
-  .flair-science { background-color: #27ae60 !important; }
-  .flair-history { background-color: #2980b9 !important; }
-  .flair-geography { background-color: #8e44ad !important; }
-  .flair-movies { background-color: #e67e22 !important; }
-  .flair-video-games { background-color: #16a085 !important; }
-  .flair-other { background-color: #2980b9 !important; }
+	/*--------------------------------------------------------------------------------------------------------------------------
+	---------------------------------------------- CHANGE FLAIR BACKGROUND COLORS ----------------------------------------------
+	------ PLEASE CHANGE THE CLASS NAME (e.g. "flair-meta", "flair-science") TO WHATEVER CLASS NAME YOU GIVE YOUR FLAIRS. ------
+	--------------------------------------------------------------------------------------------------------------------------*/
+	.flair-meta { background-color: #e74c3c !important; }
+	.flair-science { background-color: #27ae60 !important; }
+	.flair-history { background-color: #2980b9 !important; }
+	.flair-geography { background-color: #8e44ad !important; }
+	.flair-movies { background-color: #e67e22 !important; }
+	.flair-video-games { background-color: #16a085 !important; }
+	.flair-other { background-color: #2980b9 !important; }
