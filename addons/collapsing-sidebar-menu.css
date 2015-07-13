@@ -1,0 +1,48 @@
+	/*---------------------------------------------------------------------------------------------------
+	------------------------ COLLAPSE TABLES IN SIDEBAR, AND EXPAND THEM ON HOVER -----------------------
+	---------------------------------------------------------------------------------------------------*/
+	.usertext-body .md table {
+		width: 100%;
+		box-shadow: none;
+		margin: 0;
+	}
+	.usertext-body .md table thead {
+		border-bottom: 1px solid #ddd;
+	}
+	.usertext-body .md table thead th {
+		padding: 5px 10px;
+		font-size: 16px;
+		position: relative;
+		background-color: rgb(42, 37, 37);
+		color: white;
+		border-color: black;
+	}
+	.usertext-body .md table thead th:after {
+		content: " ";
+		border-width: 7px 7px 0;
+		border-style: solid;
+		border-color: #EBD321 transparent transparent;
+		display: inline-block;
+		height: 0;
+		width: 0;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+	}
+	.usertext-body .md table tbody {
+		display: none;
+	}
+	.usertext-body .md table:hover tbody {
+		display: table-row-group;
+	}
+	.usertext-body .md table td {
+		border: 1px solid black;
+		padding: 0;
+		background-color: rgb(81, 75, 75);
+	}
+	.usertext-body .md table td a {
+		color: white;
+		display: block;
+		width: 100%;
+		padding: 5px 20px;
+	}
