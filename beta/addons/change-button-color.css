@@ -1,0 +1,45 @@
+        /*-------------------------------------------------------------------
+        ---------------------- CHANGE BUTTON COLOR AND ----------------------
+        --------------------- HEADER BAR OPACITY VALUE ----------------------
+        -------------------------------------------------------------------*/
+        #sr-header-area {
+                background: rgba(255,255,255,0.25);
+        }
+        .logged-in, .logged-out {
+                background: rgba(246,246,246,0.25);
+        }
+        #header {
+        	background-color: #0A7285;
+        }
+        .side button, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .btn-whoaverse-paging {
+                background-color: #67C6FB;
+        }
+        .pagename a {
+        	color: white !important;
+        }
+        .btn-whoaverse-paging, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .side button {
+        	color: white !important;
+        }
+        #sr-bar li a, .sr-list li a {
+        	color: white;
+        }
+        #sr-header-area .selected a {
+        	color: white;
+        }
+        #sr-header-area:hover #sr-bar li a {
+                color: #eee;
+        }
+        @media (min-width: 871px) {
+        	.tabmenu li.selected a {
+        		color: white;
+        	}
+        	.tabmenu li.disabled a {
+        		color: white;
+        	}
+        	.tabmenu li.disabled a.contribute {
+        		color: white;
+        	}
+        	#header-account a {
+        		color: white !important;
+        	}
+        }
