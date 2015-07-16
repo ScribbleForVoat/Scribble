@@ -1,0 +1,13 @@
+	/*---------------------------------------------------------------------------------------------------
+	-------------------------- ADD TEXT-ONLY ANNOUNCEMENT BANNER TO TOP OF PAGE -------------------------
+	---------------------------------------------------------------------------------------------------*/
+	#container:before {
+		content: "ANNOUNCEMENT: We have switched to the Scribble theme! How do you like it, so far?";
+		background-color: #be3d3d;
+		display: block;
+		border-radius: 3px;
+		padding: 10px 20px;
+		font-size: 14px;
+		color: white;
+		margin: 0 0 10px;
+	}
