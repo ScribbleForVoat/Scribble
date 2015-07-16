@@ -3,5 +3,10 @@
 	---------------------------------------------------------------------------------------------------*/
 	.pagename a:before {
 		content: "/v/";
-		font-size: 30px;
+		font-size: 36px;
+	}
+	@media (min-width: 871px) {
+		.pagename a:before {
+			font-size: 46px;
+		}
 	}
