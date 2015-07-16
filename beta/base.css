@@ -1,0 +1,461 @@
+/*
+SCRIBBLE VERSION 1.5
+OPEN SOURCE PROJECT UNDER MIT LICENSE
+DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
+*/
+
+/*--------------------------------------------------------------------------------------------------------------------
+---------- YOU DON'T NEED TO CHANGE ANYTHING IN THIS SECTION ------------
+---------- WHEN A NEW UPDATE IS RELEASED, REPLACE THE NEXT -------------
+---------- SECTION ENTIRELY. ANY CUSTOM CSS SHOULD BE DONE -------------
+---------- BELOW THIS CORE GROUPING OF CSS RULES. THANK YOU. ----------
+--------------------------------------------------------------------------------------------------------------------*/
+
+	a:hover, .link a.author:hover {
+		color: #4A4A4A;
+	}
+	a, a:visited, .link a.author, .link a.author:visited {
+		color: #898888;
+	}
+	#header {
+		height: 170px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-color: #0A7285;
+		outline: none;
+		margin: 0;
+	}
+	#header-container {
+		background: none;
+		border: 0;
+		height: 74px;
+	}
+	img#header-img {
+		visibility: hidden;
+		width: 71px;
+		margin: 47px 0 10px 0px;
+		vertical-align: unset;
+		position: relative;
+		left: -12px;
+	}
+	#header-banner > a:after {
+		content: " ";
+		background: url('https://i.imgur.com/NK49svv.png');
+		display: block;
+		height: 71px;
+		width: 71px;
+		position: absolute;
+		top: 15px;
+		left: 0;
+	}
+	.pagename {
+		display: block;
+		position: absolute;
+		top: -67px;
+		margin: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.pagename a {
+		font-size: 36px;
+		line-height: 65px;
+		color: white !important;
+	}
+	.pagename a:hover {
+		color: #ff0000;
+	}
+	.tabmenu {
+		position: absolute;
+		width: 100%;
+		top: 35px;
+		text-align: center;
+	}
+	.tabmenu li a {
+		padding: 4px 6px;
+	}
+	.tabmenu li.selected a {
+		border: 0;
+		border-bottom: 5px solid rgba(246, 246, 246, 0.34902);
+		border-radius: 0px;
+		background: transparent;
+		color: white;
+		padding: 10px 7px;
+		box-shadow: none;
+	}
+	.tabmenu li.disabled a.contribute {
+		background: rgba(246,246,246,0.35);
+		border: 0;
+		color: white;
+		padding: 10px 7px;
+	}
+	.tabmenu li.disabled a {
+		color: white;
+		background: none;
+		border: 0;
+		box-shadow: none;
+		padding: 10px 7px;
+	}
+	.tabmenu li.selected a.contribute, .tabmenu li.selected a.contribute:hover {
+		font-weight: normal;
+	}
+	.tabmenu li.selected a:hover, .tabmenu li.disabled a:hover, .tabmenu li.disabled a.contribute:hover, .tabmenu li.selected a.contribute, .tabmenu li.selected a.contribute:hover {
+		background: rgba(246,246,246,1);
+		color: #444;
+		border-width: 0 0 3px;
+		border-radius: 3px;
+		border-color: transparent;
+	}
+	#header-account {
+		text-align: center;
+		width: 100%;
+		bottom: 25px;
+	}
+	#header-account a {
+		color: #FFF;
+	}
+	.logged-in, .logged-out {
+		background: none;
+	}
+	#show-menu-button {
+		margin-top: -38px;
+	}
+	#show-menu-button::before {
+		border-top: 12px double #FFFFFF;
+		border-bottom: 4px solid #FFFFFF;
+	}
+	#container {
+		overflow: auto;
+		min-height: 100vh;
+		border: 0;
+		border-radius: 0;
+	}
+	.side {
+		top: 0px;
+		padding-top: 10px;
+		height: calc(100vh - 190px);
+	}
+	#sr-bar li a {
+		color: white;
+	}
+	#sr-header-area:hover #sr-bar li a {
+		color: #eee;
+	}
+	.sr-list li a {
+		color: white;
+	}
+	#sr-bar li a {
+		color: white;
+	}
+	#sr-more-link {
+		top: 0;
+		height: 24px;
+	}
+	#sr-more-link:hover {
+		background: #125A67;
+	}
+	span#q-error {
+	  display: block;
+	}
+	.titlebox h1 {
+		font-size: 30px;
+	}
+	.whoaversename.hover a:first-child:before {
+		content: "/v/";
+	}
+	.btn-whoaverse-paging:active {
+		top: 0;
+	}
+	.side button, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .btn-whoaverse-paging {
+		border-width: 1px;
+		background: #0A7285;
+		border-color: transparent;
+		color: white !important;
+	}
+	.side button:hover, .btn-whoaverse.contribute:hover, .pagination-container .btn-whoaverse-paging a:hover, .btn-whoaverse-paging:hover {
+		background: white;
+		background: -webkit-linear-gradient(top,#fff,#fafafa);
+		background: -moz-linear-gradient(top,#fff,#fafafa);
+		background: -ms-linear-gradient(top,#fff,#fafafa);
+		background: -o-linear-gradient(top,#fff,#fafafa);
+		border: 1px solid #ccc !important;
+		color: black !important;
+	}
+	.btn-whoaverse-paging:focus {
+		color: black !important;
+		background-color: white;
+		border: 1px solid #0A7285;
+	}
+	#sr-header-area {
+		border-bottom: 0;
+		background: rgba(255,255,255,0.1);
+		color: white;
+		font-size: 12px;
+		height: 24px;
+		line-height: 22px;
+		text-transform: none;
+		white-space: nowrap;
+	}
+	#sr-header-area .selected a {
+		color: white;
+	}
+	span.subscribers {
+		display: block;
+		margin-top: 5px;
+	}
+	.minimum-ccp-downvote > p:nth-child(1) {
+		display: none;
+	}
+	.alert-h1 {
+		border-bottom: 0;
+		color: #cacaca;
+	}
+	.footer:after {
+		content: "Design: Scribble (v1.5) for Voat - /v/Scribble";
+		color: #6d6d6d;
+	}
+	.titlebox.submissioninfo > div:nth-child(3) {
+		display: none;
+	}
+	#moderation_tools {
+		position: relative;
+		margin-bottom: 80px;
+	}
+	#moderation_tools a[href$="/about/edit/"]:after {
+		content: " ";
+		position: absolute;
+		bottom: -83px;
+		right: 0;
+		width: 280px;
+		display: block;
+		background: url('https://i.imgur.com/y8EBbh3.png') 50% no-repeat;
+		height: 73px;
+	}
+	.promoted {
+		background: #0A7285;
+		border: 1px solid #0A7285;
+		font-weight: bold;
+	}
+	.comment a.submitter.author, .comment a.moderator.author {
+		background-color: #0a7285;
+		padding: 3px 16px;
+		border-radius: 4px;
+		color: white !important;
+		font-weight: bold;
+	}
+	.comment a.moderator.author {
+		background-color: #3fbf4c;
+	}
+	.markdownEditorSubMenu {
+		margin-top: -4px;
+		margin-bottom: 11px;
+		border: 1px solid rgb(216, 216, 216);
+		border-radius: 3px;
+	}
+	.expando {
+		margin-left: -30px;
+	}
+	.usertext {
+		font-size: small;
+		overflow: auto;
+	}
+	.content .usertext-body .md * {
+		max-width: 800px;
+		word-wrap: break-word;
+		white-space: pre-wrap;
+		white-space: -moz-pre-wrap;
+	}
+	.usertext-body .md .link-expando img {
+		max-width: none;
+	}
+	.md {
+		overflow: visible;
+	}
+	.link-expando {
+		overflow: visible;
+		position: relative;
+		z-index: 1;
+	}
+	.entry {
+		overflow: visible;
+		margin-left: 30px;
+	}
+	.thread {
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+	.comment {
+		overflow: visible;
+	}
+	.commenttextarea {
+		min-height: 150px;
+	}
+	a#loadmorebutton {
+		margin: 10px 0 15px;
+	}
+	.whoaSubscriptionMenu li ul {
+		z-index: 1000;
+		min-width: 60%;
+		margin-top: 0;
+		max-height: 94vh;
+		overflow: visible;
+		box-shadow: 3px 3px 3px hsla(0,0%,0%,.2);
+	}
+	.whoaSubscriptionMenu li ul a {
+		padding: 6px !important;
+		box-shadow: 3px 3px 3px hsla(0,0%,0%,.2);
+	}
+	.link .flair {
+		font-size: x-small;
+		margin-top: -1px;
+		background-color: #0A7285;
+		display: none;
+		padding: 1px 8px;
+		border-radius: 3px;
+		color: white;
+		font-weight: bold;
+		border: 0;
+	}
+	.link .flair[title] {
+		display: inline-block;
+	}
+	.drop-arrow {
+		border-color: white transparent transparent;
+		margin-bottom: 2px;
+	}
+	@media (min-width: 701px) {
+		#header-img-a {
+			display: none;
+		}
+		.tabmenu {
+			top: 32px;
+		}
+	}
+	@media (min-width: 871px) {
+		#container, #header-banner {
+			max-width: 98%;
+		}
+		#container {
+			position: relative;
+			top: -175px;
+			z-index: 900;
+			margin-bottom: -175px;
+			border: 1px solid #d1d1d1;
+			border-radius: 3px;
+		}
+		#header-banner {
+			top: -20px;
+		}
+		#header {
+			height: 290px;
+			position: static;
+			margin-bottom: 10px;
+		}
+		#header-container {
+			top: 44px;
+			height: 58px;
+			position: absolute;
+			width: 100%;
+			z-index: 1;
+		}
+		#header-img-a {
+			display: inline-block;
+		}
+		.pagename {
+			position: static;
+			display: inline-block;
+			margin-left: auto;
+			width: auto;
+		}
+		.pagename a {
+			font-size: 46px;
+			line-height:70px;
+		}
+		.form-control {
+			height: 40px;
+			line-height: 40px;
+		}
+		.btn-whoaverse {
+			padding: 10px 12px;
+		}
+		#header-account {
+			width: auto;
+			top: 27px;
+			font-size: 12px;
+		}
+		#header-account a {
+			color: white !important;
+		}
+		.tabmenu {
+			position: static;
+			width: auto;
+			line-height: 81px;
+		}
+		.tabmenu li a {
+			padding: 10px 28px !important;
+		}
+		.tabmenu li.disabled a.contribute {
+			padding: 10px 19px 12px !important;
+		}
+		.tabmenu li.selected a.contribute, .tabmenu li.selected a.contribute:hover {
+			padding: 10px 19px 12px;
+			font-weight: normal;
+		}
+		.logged-in, .logged-out {
+			background: rgba(246,246,246,0.1);
+			border: 0;
+			padding: 10px 19px 12px;
+			color: white;
+		}
+		.side {
+			padding-top: 0;
+			height: auto;
+		}
+		.titlebox.submissioninfo div:nth-child(6) .h6 {
+			text-align: center;
+		}
+		.titlebox.submissioninfo div:nth-child(6) .h6:first-child {
+			font-size: 0;
+		}
+		.titlebox.submissioninfo div:nth-child(6) .h6:first-child b {
+			font-size: 64px;
+			display: block;
+		}
+		.whoaSubscriptionMenu li ul {
+			min-width: initial;
+		}
+		.modal-body .col-md-4 input.form-control {
+			line-height: 36px;
+		}
+		.modal-backdrop.in {
+			display: none;
+		}
+		.link .usertext .md {
+			margin: 10px 0 0 60px;
+		}
+		.link .flat-list {
+			margin-left: 30px;
+		}
+	}
+
+	@media (min-width: 871px) and (max-width: 1150px) {
+		.tabmenu {
+			line-height: 149px;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		#header-account {
+			top: 1px;
+			right: -4px;
+			padding: 6px;
+			height: 52px;
+		}
+	}
+
+/*-------------------------------------------------------------------------------------------------------------------
+---------- END OF CORE CSS RULES. PLACE YOUR CUSTOM CSS AND ----------
+---------- CSS ADDONS BELOW THIS LINE. LOVE, /v/SCRIBBLE. ---------------------
+--------------------------------------------------------------------------------------------------------------------*/
